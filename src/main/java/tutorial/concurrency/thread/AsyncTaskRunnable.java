@@ -10,7 +10,7 @@ public class AsyncTaskRunnable implements Runnable {
         try {
             LOGGER.info("Async task started.");
             Thread.sleep(10_000);
-            LOGGER.info("Async task finished execution after 10 seconds.");
+            LOGGER.info("Async task finished after 10 seconds.");
         } catch (InterruptedException e) {
             LOGGER.error(e,e);
         }
